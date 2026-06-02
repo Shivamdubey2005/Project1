@@ -6,9 +6,9 @@ from pathlib import Path
 import pandas as pd
 from sqlalchemy import create_engine
 
-# ==========================================
+
 # Paths and Logging Configuration
-# ==========================================
+
 
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / 'sales.csv'
@@ -22,9 +22,9 @@ logging.basicConfig(
 )
 
 
-# ==========================================
+
 # Extract Function
-# ==========================================
+
 
 def extract_data():
     try:
@@ -41,9 +41,9 @@ def extract_data():
         raise
 
 
-# ==========================================
+
 # Transform Function
-# ==========================================
+
 
 def transform_data(data):
     try:
@@ -77,9 +77,9 @@ def transform_data(data):
         raise
 
 
-# ==========================================
+
 # Load Function
-# ==========================================
+
 
 def load_data(data):
     try:
@@ -103,9 +103,9 @@ def load_data(data):
         raise
 
 
-# ==========================================
+
 # Synchronizer Function
-# ==========================================
+
 
 def synchronize_pipeline():
     try:
@@ -135,9 +135,9 @@ def synchronize_pipeline():
         print(f"Pipeline Failed: {e}")
 
 
-# ==========================================
+
 # Main Execution
-# ==========================================
+
 
 if __name__ == '__main__':
     synchronize_pipeline()
