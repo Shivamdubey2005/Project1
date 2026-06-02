@@ -1,0 +1,10 @@
+order_id,customer,amount,country,date
+1,Shivam,1200,India,2026-05-01
+2,Rahul,1500,India,2026-05-02
+3,Aman,,India,2026-05-03
+4,Shivam,1200,India,2026-05-01
+5,Riya,3000,USA,2026-05-04
+6,John,2500,USA,2026-05-05
+7,Emily,1800,UK,2026-05-06
+8,Michael,2200,UK,2026-05-07
+9,Sarah,2000,Canada,2026-05-08
