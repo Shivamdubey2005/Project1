@@ -1,0 +1,8 @@
+2026-05-25 18:34:07,396 - INFO - ETL Pipeline Started
+2026-05-25 18:34:07,397 - INFO - Starting data extraction
+2026-05-25 18:34:07,410 - INFO - Data extraction successful
+2026-05-25 18:34:07,432 - INFO - Starting data transformation
+2026-05-25 18:34:07,451 - INFO - Data transformation completed
+2026-05-25 18:34:07,481 - INFO - Starting data loading
+2026-05-25 18:34:07,577 - INFO - Data loading completed successfully
+2026-05-25 18:34:07,579 - INFO - ETL Pipeline Completed Successfully
